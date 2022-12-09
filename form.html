@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.bgimg {
+       background-image: url(Assets/download\ \(11\).jpeg);
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       background-attachment: fixed; 
+
+}
+       /* .tr {
+           tranparent 
+       } */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(148, 156, 249);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #559cff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #89b8f9;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f8d2c2;
+  /*  */
+  padding: 20px;
+}
+
+</style>
+<body class="bgimg">
+  
+
+<div class="box" style="margin-left: 250px ; margin-right: 250px ; margin-top: 100px ;">
+        <h3><center><p >Form</p></center></h3>
+
+    <div>
+    <form action="mailto:kanadkapil7@gmail.com" enctype="text/plain" onsubmit="location.href='thanks.html';">
+        <label for="fname">Full Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name......">
+
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email.......">
+
+        <label for="lname">Phone Number</label>
+        <input type="text" id="number" name="number" placeholder="+91 xxxx xxx xxx">
+
+        <label for="lname">Message</label>
+        <!-- class="form-control"  type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" -->
+        <input type="text" id="message" name="Message" placeholder="LET ME KNOW.....">
+
+        <label for="">What You Are</label>
+        <select id="" name="">
+        <option value="">Prof.</option>
+        <option value="">Student</option>
+        <option value="">None</option>
+        </select>
+    
+        <a href="mailto:kanadkapil7@gmail.com"><input type="submit" value="Submit"></a>
+    </form>
+    </div>
+
+       
+</div>
+
+</body>
+</html>
+
+
